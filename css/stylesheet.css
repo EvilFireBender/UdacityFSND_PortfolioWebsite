@@ -1,0 +1,73 @@
+header {
+  font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+  width: 100%;
+}
+
+.logo {
+  max-width: 30%;
+  float: left;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.heading {
+  max-width: 60%;
+  clear: right;
+  float: right;
+  padding-right: 5vw;
+}
+
+nav {
+  display: inline-block;
+  padding-top: 20vh;
+  text-align: center;
+}
+
+.nav_item {
+  display: inline-block;
+  min-width: 48px;
+  min-height: 48px;
+  padding: 2vw;
+}
+
+.main_image {
+  display: block;
+  margin: 0 auto;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bottom_images {
+  width: 25%;
+}
+
+figcaption {
+  text-align: center;
+}
+
+img, object, embed, video {
+  max-width: 100%;
+}
+
+@media screen and (max-width: 400px) {
+
+  .main_image {
+    width: 100%;
+  }
+
+  .heading {
+    font-size: 1em;
+  }
+
+  nav {
+    padding-top: 10vh;
+  }
+
+}
